@@ -1,5 +1,6 @@
 from myplotlib.colors.colormaps import *
 from myplotlib.colors.namedcolors import *
+from myplotlib.plot import *
 import matplotlib.colors as mpc
 import matplotlib.pyplot as plt
 
