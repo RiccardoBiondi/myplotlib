@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+import matplotlib as mpl
 
 from textwrap import dedent
 from seaborn.categorical import _CategoricalPlotter, _categorical_docs
