@@ -3,7 +3,7 @@ from myplotlib.colors.namedcolors import *
 from myplotlib.plot import *
 import matplotlib.colors as mpc
 import matplotlib.pyplot as plt
-
+import matplotlib as mpl
 
 __author__ = ["Riccardo Biondi"]
 __email__ = ["riccardo.biondi7@unibo.it"]
@@ -14,4 +14,5 @@ for k, v in MYCOLORS.items():
 
 # register all the custom color maps
 for k, v in CMAPS.items():
-    plt.register_cmap(name=k, cmap=v)
+    mpl.colormaps.register(v)
+    #plt.register_cmap(name=k, cmap=v)

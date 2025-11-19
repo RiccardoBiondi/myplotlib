@@ -13,7 +13,7 @@ dracula = ListedColormap([
     "#ff79c6",
     "#bd93f9",
     "#ff5555",
-    "#f1fa8c"])
+    "#f1fa8c"], name="dracula")
 # freesurfer = ListedColormap([])
 
 # here the definition of the color map composed by a single
@@ -23,7 +23,7 @@ dracula = ListedColormap([
 # that will be used to register all the maps to 
 # matplotlib when this module is called 
 
-synthema = ListedColormap([])
+#synthema = ListedColormap([])
 
 synthia = ListedColormap([
     "#6F1BBA",
@@ -32,7 +32,7 @@ synthia = ListedColormap([
     "#A130F6",
     "#00CED1",
     "#70AD47",
-    "#003366"])
+    "#003366"], name="synthia")
 
 CMAPS = {
     "dracula": dracula,
