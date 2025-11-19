@@ -23,6 +23,18 @@ dracula = ListedColormap([
 # that will be used to register all the maps to 
 # matplotlib when this module is called 
 
+synthema = ListedColormap([])
+
+synthia = ListedColormap([
+    "#6F1BBA",
+    "#A5A5A5",
+    "#FF4333",
+    "#A130F6",
+    "#00CED1",
+    "#70AD47",
+    "#003366"])
+
 CMAPS = {
-    "dracula": dracula
+    "dracula": dracula,
+    "synthia": synthia
 }
